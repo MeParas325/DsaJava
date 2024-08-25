@@ -42,9 +42,9 @@ public class PV_02_CyclicSort {
 
     public static void main(String args[]) {
 
-        int  arr[] = {3, 2, 5, 1, 4, 7, 6};
+        int  arr[] = {1, 2, 5, 1, 4, 7, 6};
 
-        cyclicSort2(arr);
+        cyclicSort1(arr);
 
         System.out.println(Arrays.toString(arr));
     }
