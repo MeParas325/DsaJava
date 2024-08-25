@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PV_02_Question {
+public class PV_04_Question {
 
     public static void main(String args[]) {
 
@@ -12,9 +12,10 @@ public class PV_02_Question {
 
             for(int col = 1; col <= row; col++) {
 
-                System.out.print("*");
+                System.out.print(col + " ");
 
             }
+
             System.out.println();
         }
 
